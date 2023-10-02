@@ -4,8 +4,10 @@
   [user@sahara ~]$
   [user@sahara ~]$ cd lecture1 
   [user@sahara ~/lecture1]$ 
-  [user@sahara ~/lecture1]$ cd ko.txt
-  bash: cd: ko.txt: No such file or directory
+  [user@sahara ~]$ cd lecture1
+  [user@sahara ~/lecture1]$ cd messages
+  [user@sahara ~/lecture1/messages]$ cd en-us.txt
+  bash: cd: en-us.txt: Not a directory
 ```
   When running cd initially nothing happens because you dont say where to change the directory to. When you specify the destination with lecture1 it then goes to lecture1, however it cannot go to a file as an argument because it only accepts directories as arguments.
 ```
@@ -13,8 +15,10 @@
   lecture1
   [user@sahara ~]$ ls lecture1
   Hello.class  Hello.java  messages  README
-  [user@sahara ~]$ ls es-mx.txt
-  ls: cannot access 'es-mx.txt': No such file or directory
+  [user@sahara ~]$ cd lecture1
+  [user@sahara ~/lecture1]$ cd messages
+  [user@sahara ~/lecture1/messages]$ ls es-ms.txt
+  ls: cannot access 'es-ms.txt': No such file or directory
 ```
   When running ls initially it lists out what we have open accesss to which is simply the lecture1 directory which if we then type that after ls it displaya list of everything in that directory. Once again if you specify a file it doesn't show anything because there isn't a list of files/folders in a file.
 ```
