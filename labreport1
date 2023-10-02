@@ -1,3 +1,4 @@
+```
 {
   [user@sahara ~]$ cd
   [user@sahara ~]$
@@ -24,3 +25,4 @@
   [user@sahara ~/lecture1/messages]$ cat ko.txt
   안녕 세계
 }
+```
