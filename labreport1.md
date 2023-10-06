@@ -20,7 +20,7 @@
   [user@sahara ~/lecture1/messages]$ ls es-ms.txt
   ls: cannot access 'es-ms.txt': No such file or directory
 ```
-  When running ls initially it lists out what we have open accesss to which is simply the lecture1 directory which if we then type that after ls it displaya list of everything in that directory. Once again if you specify a file it doesn't show anything because there isn't a list of files/folders in a file.
+  When running ls initially it lists out what we have open accesss to which is simply the lecture1 directory which if we then type that after ls it displays a list of everything in that directory. Once again if you specify a file it doesn't show anything because there isn't a list of files/folders in a file.
 ```
   [user@sahara ~]$ cat
 
