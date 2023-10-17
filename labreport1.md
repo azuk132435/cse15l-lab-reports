@@ -1,4 +1,5 @@
 **Lab Report 1**
+
 ![Image] (cd.JPG)
 
   When running cd initially it was initially in the home directory, /home. 
